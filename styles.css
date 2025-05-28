@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffe6e6, #ffd6d6);
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  padding: 100px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ff3399;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background: #ff66cc;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.imagenes {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imagenes img {
+  width: 200px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.imagenes img:hover {
+  transform: scale(1.05);
+}
